@@ -6,5 +6,11 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    data = data.split('\n')
+    return len(data)
+   
 
-# Read data from file
+dat = open('./txt_file/data02.txt').read()
+f = (main(dat))
+print(f)
+print(type(f))
