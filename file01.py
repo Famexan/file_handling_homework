@@ -6,5 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
+    data = data.split(',')
+    return list(data)
+   
 
-    data = open
