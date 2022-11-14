@@ -7,4 +7,4 @@ def main(data:str):
         list: return answer
     """
 
-# Read data from file
+    data = open
