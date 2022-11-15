@@ -11,6 +11,4 @@ def main(data:str):
    
 
 dat = open('./txt_file/data02.txt').read()
-f = (main(dat))
-print(f)
-print(type(f))
+print(main(dat))
