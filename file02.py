@@ -10,7 +10,7 @@ def main(data:str):
 
     for i in data.split('\n'):
         ans.append(i)
-    print(ans)
+
     return len(ans)
 
 dat = open('./txt_file/data02.txt').read()
