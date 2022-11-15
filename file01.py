@@ -6,11 +6,11 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    #data = data.split(',')
-    #return list(data)
+
     ans = []
 
     for i in data.split(','):
+        
         ans.append(int(i))
 
     return ans
